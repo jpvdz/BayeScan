@@ -171,7 +171,7 @@ GLOB double  sd_prior_alpha;
 //////////////////////////////////////////
 GLOB int read_input(std::ifstream& infile,string outcheck);
 GLOB int read_input_intensity(string outname,string outcheck); // selection2
-GLOB int read_discarded(std::ifstream& infile);
+GLOB void read_discarded(std::ifstream& infile);
 GLOB void write_output(std::ofstream& outfile);
 GLOB void write_output_intensity(std::ofstream& outfile); // selection2
 GLOB void write_anc_freq(std::ofstream& outfile);

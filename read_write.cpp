@@ -804,7 +804,7 @@ int read_input_intensity(string outname,string outcheck)
 //////////////////////////////
 // read discarded loci file
 //////////////////////////////
-int read_discarded(std::ifstream& infile)
+void read_discarded(std::ifstream& infile)
 {
     int locus;
     while (infile >> locus)
